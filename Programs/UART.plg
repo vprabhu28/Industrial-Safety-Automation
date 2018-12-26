@@ -1,0 +1,3295 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\DILIP PROJECTS\B-127 JSS IND AUT\UART\UART.uvproj
+Project File Date:  04/10/2017
+
+<h2>Output:</h2>
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(150): error:  #20: identifier "buf2" is undefined
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," $"); 
+main.c:                ^
+main.c: main.c: 29 warnings, 1 error
+Target not created
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," $"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=14040 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," $"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=14040 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," $"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13892 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13900 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13900 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage ");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF," *"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 32 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=12748 RO-data=32 RW-data=28 ZI-data=1484  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 46 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(118): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=12748 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(118): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=12748 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=12756 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13940 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13940 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(78): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(85): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(98): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(120): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(155): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13928 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13924 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13888 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13940 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(51): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13984 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(51): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13992 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(51): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13984 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(51): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(44): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(97): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(104): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(123): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=13984 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).
+Build target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+uart.c:       BYTE Dummy;
+uart.c:            ^
+uart.c: uart.c: 2 warnings, 0 errors
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c:   void clear();
+lcd.c:        ^
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+lcd.c:   }
+lcd.c:    ^
+lcd.c: lcd.c: 4 warnings, 0 errors
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+Serial.h: Serial.c: 1 warning, 0 errors
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+serial.h:   void uart1_puts     (char *);
+serial.h:                                ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+gsm.c(51): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(num);
+gsm.c:                  ^
+gsm.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial( str );           
+gsm.c:                  ^
+gsm.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c:                  GsmPutSSerial(index);
+gsm.c:                  ^
+gsm.c: gsm.c: 6 warnings, 0 errors
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(163): warning:  #47-D: incompatible redefinition of macro "U0IER" (declared at line 190 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IER          (*((volatile unsigned char *) 0xE000C004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(164): warning:  #47-D: incompatible redefinition of macro "U0IIR" (declared at line 191 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U0IIR          (*((volatile unsigned char *) 0xE000C008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(175): warning:  #47-D: incompatible redefinition of macro "U1IER" (declared at line 207 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IER          (*((volatile unsigned char *) 0xE0010004))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+C:\Keil\ARM\INC\Philips\LPC21xx.H(176): warning:  #47-D: incompatible redefinition of macro "U1IIR" (declared at line 208 of "..\Common\inc\LPC214x.H")
+C:\Keil\ARM\INC\Philips\LPC21xx.H:   #define U1IIR          (*((volatile unsigned char *) 0xE0010008))
+C:\Keil\ARM\INC\Philips\LPC21xx.H:           ^
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h:   extern void init_lcd();
+lcd.h:               ^
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h:   extern  lcd_gotoxy( unsigned int x, unsigned int y);  
+lcd.h:                                                         ^
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h:   void uart1_puts     (char *);
+Serial.h:                                ^
+wifi.h(72): warning:  #177-D: variable "cmd" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                    ^
+wifi.h(72): warning:  #177-D: variable "temp" was declared but never referenced
+wifi.h:             unsigned char buff[60],cmd[20],temp[20];
+wifi.h:                                            ^
+wifi.h(73): warning:  #177-D: variable "ch" was declared but never referenced
+wifi.h:                 char ch;  
+wifi.h:                      ^
+wifi.h(74): warning:  #177-D: variable "len" was declared but never referenced
+wifi.h:                 int len;
+wifi.h:                     ^
+all.h(17): warning:  #1-D: last line of file ends without a newline
+all.h:          
+all.h:          ^
+main.c(43): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasDETECTED*"); 
+main.c:                        ^
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcpy(IOT_BUFF,"UgasNORMAL*");
+main.c:                        ^
+main.c(96): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireFIRE DETECTED*");
+main.c:                        ^
+main.c(103): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:                 strcat(IOT_BUFF,"fireNO FIRE*");
+main.c:                        ^
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf1, "Volt:%.2fV", temp1);
+main.c:                 ^
+main.c(118): warning:  #223-D: function "clear" declared implicitly
+main.c:         clear();
+main.c:         ^
+main.c(119): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(0,0, buf1);
+main.c:                            ^
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"voltage");
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                ^
+main.c(121): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf1);
+main.c:                         ^
+main.c(122): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*"); 
+main.c:                ^
+main.c(149): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         sprintf(buf2, "Temp: %.2fC", temp);
+main.c:                 ^
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c:         lcd_putstring(1,0, buf2);
+main.c:                            ^
+main.c(151): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"temp");
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                ^
+main.c(152): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *restrict"
+main.c:         strcat(IOT_BUFF,buf2);
+main.c:                         ^
+main.c(153): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *restrict"
+main.c:         strcat(IOT_BUFF,"*$"); 
+main.c:                ^
+main.c: main.c: 33 warnings, 0 errors
+linking...
+..\UART.axf: Warning: L6914W: option rwpi ignored when using --scatter.
+Program Size: Code=14072 RO-data=32 RW-data=28 ZI-data=1516  
+..\UART.axf: Finished: 0 information, 1 warning and 0 error messages.
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 47 Warning(s).

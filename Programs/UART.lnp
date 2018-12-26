@@ -1,0 +1,4 @@
+--cpu ARM7TDMI "..\startup.o" "..\uart.o" "..\irq.o" "..\lcd.o" "..\serial.o" "..\gsm.o" "..\adc.o" "..\main.o" --library_type=microlib --rwpi --strict --scatter "..\UART.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\Lst\UART.map" -o "..\UART.axf"
