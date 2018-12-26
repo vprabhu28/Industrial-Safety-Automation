@@ -1,0 +1,13 @@
+.\Obj\main.o: main.c
+.\Obj\main.o: ..\Common\inc\LPC214x.H
+.\Obj\main.o: all.h
+.\Obj\main.o: ..\Common\inc\type.h
+.\Obj\main.o: ..\Common\inc\irq.h
+.\Obj\main.o: uart.h
+.\Obj\main.o: ..\Common\inc\target.h
+.\Obj\main.o: C:\Keil\ARM\RV31\Inc\stdio.h
+.\Obj\main.o: C:\Keil\ARM\RV31\Inc\string.h
+.\Obj\main.o: lcd.h
+.\Obj\main.o: Serial.h
+.\Obj\main.o: gsm.h
+.\Obj\main.o: adc.h

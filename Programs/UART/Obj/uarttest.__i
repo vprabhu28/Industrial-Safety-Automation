@@ -1,0 +1,1 @@
+-c --cpu ARM7TDMI -D__EVAL -D__MICROLIB -O0 -I..\Common\inc -I C:\Keil\ARM\RV31\Inc -I C:\Keil\ARM\CMSIS\Include -I C:\Keil\ARM\Inc\Philips -o ".\Obj\uarttest.o" --depend ".\Obj\uarttest.d" "uarttest.c"

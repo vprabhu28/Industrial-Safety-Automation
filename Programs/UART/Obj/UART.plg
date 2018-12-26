@@ -1,0 +1,842 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+E:\DILIP PROJECTS\PESIT B84\UART\UART.uvproj
+Project File Date:  01/17/2017
+
+<h2>Output:</h2>
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(49): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(146): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(20): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(23): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(30): error:  #20: identifier "sms_dat" is undefined
+main.c(32): warning:  #223-D: function "clear" declared implicitly
+main.c(45): warning:  #223-D: function "clear" declared implicitly
+main.c(62): warning:  #223-D: function "clear" declared implicitly
+main.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(111): warning:  #223-D: function "clear" declared implicitly
+main.c(112): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(133): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(139): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(167): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(196): warning:  #223-D: function "clear" declared implicitly
+main.c(203): warning:  #223-D: function "clear" declared implicitly
+main.c(214): warning:  #550-D: variable "adc_value" was set but never used
+Target not created
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(49): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(146): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(20): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(23): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(32): warning:  #223-D: function "clear" declared implicitly
+main.c(33): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(45): warning:  #223-D: function "clear" declared implicitly
+main.c(62): warning:  #223-D: function "clear" declared implicitly
+main.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(111): warning:  #223-D: function "clear" declared implicitly
+main.c(112): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(133): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(139): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(167): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(196): warning:  #223-D: function "clear" declared implicitly
+main.c(203): warning:  #223-D: function "clear" declared implicitly
+main.c(214): warning:  #550-D: variable "adc_value" was set but never used
+linking...
+Program Size: Code=4648 RO-data=32 RW-data=12 ZI-data=1364  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 41 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(20): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(23): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(30): error:  #20: identifier "sms_dat" is undefined
+main.c(32): warning:  #223-D: function "clear" declared implicitly
+main.c(45): warning:  #223-D: function "clear" declared implicitly
+main.c(62): warning:  #223-D: function "clear" declared implicitly
+main.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(111): warning:  #223-D: function "clear" declared implicitly
+main.c(112): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(133): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(139): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(167): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(196): warning:  #223-D: function "clear" declared implicitly
+main.c(203): warning:  #223-D: function "clear" declared implicitly
+main.c(214): warning:  #550-D: variable "adc_value" was set but never used
+Target not created
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(20): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(23): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(32): warning:  #223-D: function "clear" declared implicitly
+main.c(33): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(45): warning:  #223-D: function "clear" declared implicitly
+main.c(62): warning:  #223-D: function "clear" declared implicitly
+main.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(111): warning:  #223-D: function "clear" declared implicitly
+main.c(112): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(133): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(139): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(167): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(196): warning:  #223-D: function "clear" declared implicitly
+main.c(203): warning:  #223-D: function "clear" declared implicitly
+main.c(214): warning:  #550-D: variable "adc_value" was set but never used
+linking...
+.\Obj\UART.axf: Error: L6200E: Symbol sms_dat multiply defined (by main.o and gsm.o).
+Target not created
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(20): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(23): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(32): warning:  #223-D: function "clear" declared implicitly
+main.c(33): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(45): warning:  #223-D: function "clear" declared implicitly
+main.c(62): warning:  #223-D: function "clear" declared implicitly
+main.c(63): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(69): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(76): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(83): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(93): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(109): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(111): warning:  #223-D: function "clear" declared implicitly
+main.c(112): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(118): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(124): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(133): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(139): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(148): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(154): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(167): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(196): warning:  #223-D: function "clear" declared implicitly
+main.c(203): warning:  #223-D: function "clear" declared implicitly
+main.c(214): warning:  #550-D: variable "adc_value" was set but never used
+linking...
+Program Size: Code=4648 RO-data=32 RW-data=12 ZI-data=1364  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 41 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(16): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(19): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(28): warning:  #223-D: function "clear" declared implicitly
+main.c(29): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(41): warning:  #223-D: function "clear" declared implicitly
+main.c(58): warning:  #223-D: function "clear" declared implicitly
+main.c(59): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(65): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(72): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(79): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(89): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(105): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(107): warning:  #223-D: function "clear" declared implicitly
+main.c(108): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(114): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(129): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(135): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(144): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(150): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(163): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(192): warning:  #223-D: function "clear" declared implicitly
+main.c(199): warning:  #223-D: function "clear" declared implicitly
+main.c(210): warning:  #550-D: variable "adc_value" was set but never used
+linking...
+Program Size: Code=4648 RO-data=32 RW-data=12 ZI-data=1364  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 41 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(28): warning:  #1295-D: Deprecated declaration card_check - give arg types
+main.c(31): warning:  #1295-D: Deprecated declaration pin_check - give arg types
+main.c(40): warning:  #223-D: function "clear" declared implicitly
+main.c(41): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(53): warning:  #223-D: function "clear" declared implicitly
+main.c(70): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(77): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(84): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(91): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(101): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(117): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(119): warning:  #223-D: function "clear" declared implicitly
+main.c(120): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(126): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(132): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(141): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(156): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(162): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(175): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "const char *"
+main.c(204): warning:  #223-D: function "clear" declared implicitly
+main.c(211): warning:  #223-D: function "clear" declared implicitly
+main.c(222): warning:  #550-D: variable "adc_value" was set but never used
+linking...
+Program Size: Code=4652 RO-data=32 RW-data=12 ZI-data=1364  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 41 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(42): error:  #20: identifier "FANFRIDGE" is undefined
+main.c(43): error:  #20: identifier "IO" is undefined
+main.c(43): error:  #65: expected a ";"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(56): error:  #169: expected a declaration
+main.c(68): warning:  #1-D: last line of file ends without a newline
+main.c(68): warning: At end of source:  #12-D: parsing restarts here after previous syntax error
+Target not created
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(42): error:  #20: identifier "FANFRIDGE" is undefined
+main.c(43): error:  #20: identifier "IO" is undefined
+main.c(43): error:  #65: expected a ";"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+Target not created
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(42): error:  #20: identifier "FANFRIDGE" is undefined
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+main.c - 1 Error(s), 8 Warning(s).
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(43): error:  #20: identifier "FANFRIDGE" is undefined
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+main.c - 1 Error(s), 8 Warning(s).
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+main.c - 0 Error(s), 8 Warning(s).
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+main.c - 0 Error(s), 8 Warning(s).
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+main.c - 0 Error(s), 8 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3168 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(69): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3168 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(70): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3196 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+".\Obj\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(70): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3196 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3200 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3200 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3140 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
+Rebuild target 'LPC2100'
+assembling Startup.s...
+compiling uart.c...
+uart.c(40): warning:  #550-D: variable "Dummy" was set but never used
+uart.c(120): warning:  #550-D: variable "Dummy" was set but never used
+compiling irq.c...
+compiling lcd.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.c(27): warning:  #1295-D: Deprecated declaration clear - give arg types
+lcd.c(176): warning:  #1-D: last line of file ends without a newline
+compiling Serial.c...
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+compiling gsm.c...
+serial.h(8): warning:  #1-D: last line of file ends without a newline
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+gsm.c(50): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(64): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+gsm.c(147): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+compiling adc.c...
+compiling main.c...
+lcd.h(3): warning:  #1295-D: Deprecated declaration init_lcd - give arg types
+lcd.h(8): warning:  #1-D: last line of file ends without a newline
+Serial.h(8): warning:  #1-D: last line of file ends without a newline
+all.h(11): warning:  #1-D: last line of file ends without a newline
+main.c(33): warning:  #223-D: function "clear" declared implicitly
+main.c(34): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *"
+main.c(48): warning:  #223-D: function "clear" declared implicitly
+main.c(71): warning:  #1-D: last line of file ends without a newline
+linking...
+Program Size: Code=3144 RO-data=16 RW-data=0 ZI-data=1360  
+FromELF: creating hex file...
+"..\UART.axf" - 0 Error(s), 21 Warning(s).
