@@ -76,9 +76,11 @@ The aim of the project was to design an autonomous system that would monitor few
   Voltage:  
   <img src="Images/VolDetect.PNG" width="600">  
   
- 
- 
- 
- 
- 
- 
+  
+  ----
+  
+  ## Other Files:
+  
+  a. The files uploaded here also include videos of the the operation of the system. They are in the folder "Results".  
+  b. I have also included a "Final report.pdf" file which has a detailed report on the project.
+  
